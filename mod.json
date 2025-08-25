@@ -1,0 +1,161 @@
+{
+	"geode": "4.7.0",
+	"gd": {
+		"win": "2.2074",
+		"android": "2.2074",
+		"mac": "2.2074",
+		"ios": "2.2074"
+	},
+	"id": "oki3ed.profiled_menulayer",
+	"name": "Profiled MenuLayer",
+	"version": "v1.0.0",
+	"developer": "oki3ed",
+	"description": "Advanced settings for MenuLayer",
+	"links": {
+		"source": "https://github.com/oki333ed/Profiled-MenuLayer"
+	},
+    "incompatibilities": [
+        {
+            "id": "weebify.restartbtn",
+            "importance": "conflicting",
+            "version": "*"
+        }
+    ],
+    "settings": {
+		"other": {
+			"type": "title",
+			"name": "Other"
+		},
+        "main-title": {
+            "default": true,
+            "name": "Main title",
+            "type": "bool"
+        },
+        "player-username": {
+            "default": true,
+            "name": "Player username",
+            "type": "bool"
+        },
+		"close-menu": {
+			"type": "title",
+			"name": "Close menu",
+            "platforms": [
+                "win",
+                "mac"
+            ]
+		},
+        "close-button": {
+            "default": true,
+            "name": "Close button",
+            "type": "bool",
+            "platforms": [
+                "win",
+                "mac"
+            ]
+        },
+		"right-side-menu": {
+			"type": "title",
+			"name": "Right side menu"
+		},
+        "daily-chest-button": {
+            "default": true,
+            "name": "Daily chest button",
+            "type": "bool"
+        },
+		"main-menu": {
+			"type": "title",
+			"name": "Main menu"
+		},
+        "icon-kit-button": {
+            "default": true,
+            "name": "Icon kit button",
+            "type": "bool"
+        },
+        "play-button": {
+            "default": true,
+            "name": "Play button",
+            "type": "bool"
+        },
+        "editor-button": {
+            "default": true,
+            "name": "Editor button",
+            "type": "bool"
+        },
+		"bottom-menu": {
+			"type": "title",
+			"name": "Bottom menu"
+		},
+        "achievements-button": {
+            "default": true,
+            "name": "Achievements button",
+            "type": "bool"
+        },
+        "settings-button": {
+            "default": true,
+            "name": "Settings button",
+            "type": "bool"
+        },
+        "stats-button": {
+            "default": true,
+            "name": "Stats button",
+            "type": "bool"
+        },
+        "newgrounds-button": {
+            "default": true,
+            "name": "Newgrounds button",
+            "type": "bool"
+        },
+		"more-games-menu": {
+			"type": "title",
+			"name": "More games menu"
+		},
+        "more-games-button": {
+            "default": true,
+            "name": "More games button",
+            "type": "bool"
+        },
+		"social-media-menu": {
+			"type": "title",
+			"name": "Social media menu"
+		},
+        "robtop-logo-button": {
+            "default": true,
+            "name": "RobTop logo button",
+            "type": "bool"
+        },
+        "facebook-button": {
+            "default": true,
+            "name": "Facebook button",
+            "type": "bool"
+        },
+        "twitter-button": {
+            "default": true,
+            "name": "Twitter button",
+            "type": "bool"
+        },
+        "youtube-button": {
+            "default": true,
+            "name": "YouTube button",
+            "type": "bool"
+        },
+        "twitch-button": {
+            "default": true,
+            "name": "Twitch button",
+            "type": "bool"
+        },
+        "discord-button": {
+            "default": true,
+            "name": "Discord button",
+            "type": "bool"
+        },
+		"profile-menu": {
+			"type": "title",
+			"name": "Profile menu"
+		},
+        "profile-button": {
+            "default": true,
+            "name": "Profile button",
+            "type": "bool"
+        }
+    }
+}
